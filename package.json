@@ -1,0 +1,36 @@
+{
+  "name": "@alitajs/react-dplayer",
+  "version": "0.1.4",
+  "description": "React DPlayer",
+  "main": "./lib/index",
+  "module": "./es/index",
+  "typings": "lib/index.d.ts",
+  "repository": "git@github.com:alitajs/react-dplayer.git",
+  "author": "wangxingkang <wangxingkang@sensoro.com>",
+  "license": "MIT",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "scripts": {
+    "build": "father-build"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0",
+    "dplayer": ">=1.25.0"
+  },
+  "devDependencies": {
+    "@types/dplayer": "^1.25.0",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "dplayer": "^1.25.0",
+    "father-build": "^1.6.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "typescript": "^3.5.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

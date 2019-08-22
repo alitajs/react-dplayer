@@ -1,12 +1,12 @@
 <h1 align="center">React DPlayer</h1>
 
-<p align="center">
+<div align="center">
 
 [![Alita](https://img.shields.io/badge/alitajs-react%20dplayer-blue.svg)](https://github.com/alitajs/react-dplayer)
 [![NPM version](https://img.shields.io/npm/v/@alitajs/react-dplayer.svg?style=flat)](https://npmjs.org/package/@alitajs/react-dplayer)
 [![NPM downloads](http://img.shields.io/npm/dm/@alitajs/react-dplayer.svg?style=flat)](https://npmjs.org/package/@alitajs/react-dplayer)
 
-</p>
+</div>
 
 > 官方提供的封装[react-dplayer](https://github.com/MoePlayer/react-dplayer)
 

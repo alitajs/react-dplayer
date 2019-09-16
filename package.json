@@ -1,6 +1,6 @@
 {
   "name": "@alitajs/react-dplayer",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "React DPlayer",
   "main": "./lib/index",
   "module": "./es/index",
@@ -13,19 +13,22 @@
     "lib"
   ],
   "scripts": {
-    "build": "father-build"
+    "bootstrap": "yarn || npm i",
+    "build": "father build",
+    "doc:dev": "father doc dev"
   },
   "peerDependencies": {
+    "dplayer": ">=1.25.0",
     "react": ">=16.0.0",
-    "react-dom": ">=16.0.0",
-    "dplayer": ">=1.25.0"
+    "react-dom": ">=16.0.0"
   },
   "devDependencies": {
+    "@babel/plugin-transform-typescript": "^7.6.0",
     "@types/dplayer": "^1.25.0",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
     "dplayer": "^1.25.0",
-    "father-build": "^1.6.1",
+    "father": "^2.18.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "typescript": "^3.5.3"

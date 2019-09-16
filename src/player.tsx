@@ -75,7 +75,7 @@ class Player extends React.Component<IPlayerProps> {
   }
 
   render() {
-    const { className, style }  = this.props;
+    const { className, style } = this.props;
 
     return (
       <div
